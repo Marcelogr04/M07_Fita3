@@ -1,0 +1,2 @@
+ex33.txt : crea un arxiu de text i dona-li els permisos adequats per tal que Apache hi pugui escriure.
+Posa algun text d'exemple tipus lorem ipsum.
