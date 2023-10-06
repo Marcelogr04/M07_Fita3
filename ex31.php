@@ -24,8 +24,8 @@
     $fitxerEntrada = file('contactes31.txt');
     $contactes = array();
     //Guardar datos
-    foreach ($fitxerEntrada as $dades) {
-        //$dades = separar datos con cada coma
+    foreach ($fitxerEntrada as $linea) {
+        $dades = explode(',',$linea);
         $contactes[] = array(
             'nom' => $dades[0],
             'cognom1' => $dades[1],
